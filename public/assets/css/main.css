@@ -15,7 +15,6 @@ body {
   padding-bottom: 15em;
   background-color: #17202a;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .form-signin {
   width: 100%;
