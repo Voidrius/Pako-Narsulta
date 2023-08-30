@@ -1,11 +1,10 @@
 # "Pako Narsulta" Phaser3 peli käyttäjä autentikaatiolla ja backend serverillä.
 - [Linkki sovellukseen](https://pako-narsulta.onrender.com/)
-- Lähdekoodi on tämä repositorio. Älä kurkkaa .env filuun se oli pakko lisätä osaksi repoa että heroku toimisi.
+- Lähdekoodi on tämä repositorio.
 - Tekijä: Matias Laakso AA3739
 - Kurssi: Fullstack-ohjelmointi TTC2080-3011
 - Kuvaus: Peli on on toteutettu Phaser3 moottorilla, ja sitä hostataan Node.js serverillä, jossa on useita ominaisuuksia.
 - Työnjako: Yksin tehty, Mikael (AB7430) piirsi osan intro cutscenesta.
-- Kulutettu aika: Ei montaa viikkoa mutta pitkiä päiviä kului tämän kanssa. Oma veikkaus 50-70h. Commiteista ei oikein ota ota selkoa, sillä rupesin repoa ylläpitämään vasta kun ajatus oli toteuttaa sovellus herokussa loppu päädyssä. Ennen tätä kuvittelin pystyttäväni tämän täysin student palvelimelle.
 
 ## Pääominaisuuksia:
 1. Rekisteröityminen, kirjautuminen.
