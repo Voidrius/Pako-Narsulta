@@ -15,6 +15,7 @@ body {
   padding-bottom: 15em;
   background-color: #17202a;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .form-signin {
   width: 100%;
@@ -49,4 +50,22 @@ img {
   scale: 60%;
   z-index:-1;
   order: 0;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    width: 50%;
+  }
+  img {
+    margin-bottom: -20em; 
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    width: 50%;
+  }
+  img {
+    margin-bottom: -20em; 
+  }
 }
