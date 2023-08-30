@@ -45,7 +45,7 @@ body {
 
 img {
   margin-top: 2em;
-  margin-bottom: -10em
+  margin-bottom: -10em;
   scale: 60%;
   z-index:-1;
   order: 0;
