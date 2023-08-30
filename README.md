@@ -1,5 +1,5 @@
 # "Pako Narsulta" Phaser3 peli käyttäjä autentikaatiolla ja backend serverillä.
-- [Linkki sovellukseen](https://aa3739-pako-narsulta.herokuapp.com/)
+- [Linkki sovellukseen](https://pako-narsulta.onrender.com/)
 - Lähdekoodi on tämä repositorio. Älä kurkkaa .env filuun se oli pakko lisätä osaksi repoa että heroku toimisi.
 - Tekijä: Matias Laakso AA3739
 - Kurssi: Fullstack-ohjelmointi TTC2080-3011
