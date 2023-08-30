@@ -22,6 +22,7 @@ body {
   padding: 15px;
   margin: 0 auto;
   min-width: 400px;
+  order: 1;
 }
 .form-signin .checkbox {
   font-weight: 400;
@@ -46,4 +47,5 @@ img {
   
   scale: 110%;
   z-index:-1;
+  order: 2;
 }
