@@ -51,22 +51,37 @@ img {
   order: 0;
 }
 
+/* Tablet config */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    width: 50%;
-  }
-  img {
-    margin-bottom: -20em; 
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: space-evenly;
+    padding-bottom: 15em;
+    background-color: #17202a;
+    flex-direction: column;
   }
 }
-
+/* Mobile config */
 @media only screen and (max-width: 400px) {
   body {
-    width: 50%;
-    scale: 30%;
-  }
-  img {
-    margin-bottom: -20em; 
-    scale: 30%;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: space-evenly;
+    padding-bottom: 15em;
+    background-color: #17202a;
+    flex-direction: column;
   }
 }
