@@ -54,6 +54,7 @@ img {
 /* Tablet config */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
+    scale: 75%;
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
