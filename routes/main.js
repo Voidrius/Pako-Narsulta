@@ -3,6 +3,23 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const tokenList = {};
 const router = express.Router();
+const cron = require('node-cron');
+
+cron.schedule('*/14 * * * *', () => {
+  console.log('pinging server to prevent wind down every 14 minutes');
+  $.ajax({
+  type: "GET",
+  url: "https://pako-narsulta.onrender.com/status",
+  dataType: "text/html",
+  success: function() {
+    console.log("success");
+  },
+  error: function() {
+    console.log("error");
+  }
+});
+});
+
 router.get('/status', (req, res, next) => {
   res.status(200).json({ status: 'ok' });
 });
